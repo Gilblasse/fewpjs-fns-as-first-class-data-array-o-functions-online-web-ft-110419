@@ -40,5 +40,4 @@ function exerciseDog(dogName,dogBreed) {
       activity(dogName, dogBreed)
     });
       return results
-
 }
