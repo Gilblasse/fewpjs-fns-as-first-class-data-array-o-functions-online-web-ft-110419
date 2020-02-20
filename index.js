@@ -39,6 +39,6 @@ function exerciseDog(dogName,dogBreed) {
     // return routine.map(function (activity){
     //   activity(dogName, dogBreed)
     // });
-      return routine.map(fn => fn(dog, breed))
+      return routine.map(fn => fn(dogName, dogBreed))
 
 }
