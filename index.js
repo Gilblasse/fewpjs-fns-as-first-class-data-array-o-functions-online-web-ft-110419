@@ -37,6 +37,6 @@ function unleashDog(dogName,dogBreed) {
 var routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 function exerciseDog(dogName,dogBreed) {
     return routine.map(function (activity){
-      activity(dog, breed)
-    } );
+      activity(dogName, dogBreed)
+    });
 }
